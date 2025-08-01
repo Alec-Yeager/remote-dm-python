@@ -1,0 +1,7 @@
+TCP ensures a packet is recieved, UDP does not.
+Flow of info is: 
+    Bind to host a port
+    listen, which listens for connections.
+    accept, which blocks and returns a socket itself.
+    then communicate with that socket, using the blocking recv and send.
+    
